@@ -1,0 +1,30 @@
+{
+  "ids": {
+    "User": 1,
+    "AccessToken": 1,
+    "ACL": 1,
+    "RoleMapping": 1,
+    "Role": 1,
+    "Product": 7,
+    "Category": 3
+  },
+  "models": {
+    "User": {},
+    "AccessToken": {},
+    "ACL": {},
+    "RoleMapping": {},
+    "Role": {},
+    "Product": {
+      "1": "{\"name\":\"Tea\",\"price\":10,\"categoryId\":1,\"id\":1}",
+      "2": "{\"name\":\"Coffee\",\"price\":15,\"categoryId\":1,\"id\":2}",
+      "3": "{\"name\":\"Cheese Cake\",\"price\":30,\"categoryId\":2,\"id\":3}",
+      "4": "{\"name\":\"Lemon Cake\",\"price\":35,\"categoryId\":2,\"id\":4}",
+      "5": "{\"name\":\"Pepsi\",\"price\":2,\"categoryId\":1,\"id\":5}",
+      "6": "{\"name\":\"Coke\",\"price\":200,\"categoryId\":1,\"id\":6}"
+    },
+    "Category": {
+      "1": "{\"name\":\"Drinks\",\"id\":1}",
+      "2": "{\"name\":\"Food\",\"id\":2}"
+    }
+  }
+}
