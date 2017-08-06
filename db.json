@@ -1,7 +1,7 @@
 {
   "ids": {
-    "User": 1,
-    "AccessToken": 1,
+    "User": 2,
+    "AccessToken": 2,
     "ACL": 1,
     "RoleMapping": 1,
     "Role": 1,
@@ -9,8 +9,12 @@
     "Category": 3
   },
   "models": {
-    "User": {},
-    "AccessToken": {},
+    "User": {
+      "1": "{\"password\":\"$2a$10$6GgoiiLKmJ6x.cxWD.B7W.124D5HTbnS.9061mnwieLNb/jnemKFK\",\"email\":\"admin@example.com\",\"id\":1}"
+    },
+    "AccessToken": {
+      "s3cr3t": "{\"id\":\"s3cr3t\",\"userId\":1}"
+    },
     "ACL": {},
     "RoleMapping": {},
     "Role": {},
