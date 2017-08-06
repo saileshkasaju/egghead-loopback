@@ -8,7 +8,7 @@ module.exports = function(Product) {
       .count({ id: ctx.instance.categoryId })
       .then(res => {
         if (res < 1) {
-          return Promise.reject('Error adding product to existing category')
+          return Promise.reject('Error adding product to non-existing category')
         }
       })
     }
